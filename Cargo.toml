@@ -1,0 +1,8 @@
+[package]
+name = "GlunzunkEngine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glfw = "0.60.0"
+glium = "0.36.0"
