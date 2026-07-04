@@ -4,4 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-freya = "=0.4.0-rc.19"
+env_logger = "0.11.11"
+freya = "=0.4.0-rc.23"
+glunzunk_engine = { path = "../engine" }
+glunzunk_renderer = { path = "../renderer" }
+log = "0.4.33"

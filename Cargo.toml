@@ -6,6 +6,5 @@ members = [
     "engine",
     "renderer",
     "editor",
-    "game",
 ]
 resolver = "2"
