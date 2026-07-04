@@ -1,4 +1,4 @@
-use glunzunk_engine::run;
+use glunzunk_renderer::run;
 
 fn main() {
     run().unwrap();
