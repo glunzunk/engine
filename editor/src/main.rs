@@ -16,8 +16,11 @@ fn main() {
     }
 
     info!("Starting Glunzunk Editor");
-    println!("Hello, world!");
     glunzunk_engine::init();
     info!("Starting Renderer...");
-    glunzunk_renderer::run().unwrap();
+    // glunzunk_renderer::run().unwrap();
+
+    info!("Creating Scene");
+    // glunzunk_engine::scene::create("main");
+    let mut scene = glunzunk_engine::scene::create("main");
 }
