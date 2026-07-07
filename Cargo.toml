@@ -6,5 +6,6 @@ members = [
     "engine",
     "renderer",
     "editor",
+    "runtime",
 ]
 resolver = "2"

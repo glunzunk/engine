@@ -8,12 +8,10 @@ use bevy_ecs::world::World;
 
 
 pub mod scene;
+pub mod object;
 
 pub fn init() {
     info!("Initialising Glunzunk Engine...");
-
-    let world = World::default();
-    info!("ECS World Created");
 
     game_loop()
 }

@@ -21,6 +21,10 @@ fn main() {
     // glunzunk_renderer::run().unwrap();
 
     info!("Creating Scene");
-    // glunzunk_engine::scene::create("main");
+    
     let mut scene = glunzunk_engine::scene::create("main");
+
+    let cube = glunzunk_engine::object::primitive::create("thing", glunzunk_engine::object::primitive::CUBE);
+
+    scene.add(cube);
 }

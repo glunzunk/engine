@@ -1,6 +1,7 @@
 [package]
-name = "game"
+name = "runtime"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+mlua = "0.12.0"
