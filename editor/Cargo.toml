@@ -3,6 +3,7 @@ name = "glunzunk_editor"
 version = "0.1.0"
 edition = "2024"
 
+
 [dependencies]
 env_logger = "0.11.11"
 freya = "=0.4.0-rc.23"

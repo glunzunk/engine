@@ -9,3 +9,4 @@ members = [
     "runtime",
 ]
 resolver = "2"
+default-members = ["editor"]

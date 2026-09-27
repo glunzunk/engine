@@ -18,7 +18,7 @@ fn main() {
     info!("Starting Glunzunk Editor");
     glunzunk_engine::init();
     info!("Starting Renderer...");
-    // glunzunk_renderer::run().unwrap();
+    glunzunk_renderer::run().unwrap();
 
     info!("Creating Scene");
     
