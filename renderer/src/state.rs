@@ -12,5 +12,7 @@ pub struct State {
     pub config: wgpu::SurfaceConfiguration,
     pub is_surface_configured: bool,
     pub render_pipeline: wgpu::RenderPipeline,
+    pub vertex_buffer: wgpu::Buffer, 
+    pub num_vertices: u32,
     pub window: Arc<Window>,
 }

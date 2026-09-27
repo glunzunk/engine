@@ -13,6 +13,10 @@ pub mod window;
 
 use crate::window::App;
 
+// A lot ( if not all ) of the boilerplate is based off the guide
+// from https://sotrh.github.io/learn-wgpu/ !
+// Please bare with me...
+
 pub fn run() -> anyhow::Result<()> {
     let event_loop = EventLoop::with_user_event().build()?;
     #[cfg(not(target_arch = "wasm32"))]
